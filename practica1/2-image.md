@@ -4,7 +4,7 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 
 
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
-# COMPLETAR 
+# La imagen es el modelo estático y el contenedor es la instancia dinámica en ejecución basada en ese modelo. La relación entre ambos es análoga a la de una clase y sus objetos en programación orientada a objetos, donde la imagen sería la clase y el contenedor sería el objeto. 
 
 ![Imagen y contenedores](imagenes/imagenYcontenedores.JPG)
 ## Comandos para imágenes
