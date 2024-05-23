@@ -24,13 +24,15 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
-# COMPLETAR
+```docker pull hello-world```
 
-**¿Qué es nginx**
-# COMPLETAR 
+**¿Qué es nginx?**
+Nginx es un servidor web de código abierto que también puede funcionar como un servidor proxy inverso, equilibrador de carga, proxy de correo y caché HTTP.
 
 Descargar la imagen  **nginx** en la versión **alpine**
-# COMPLETAR
+```
+docker pull nginx:alpine
+```
 
 ### Listar imágenes
 
@@ -38,7 +40,9 @@ Descargar la imagen  **nginx** en la versión **alpine**
 docker images
 ```
 
-# COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
+![Captura de pantalla 2024-05-22 233354](https://github.com/Milton599/2024A-ISWD633-GR1/assets/94476149/2b072c3b-adcf-4018-a10f-5de7fd55e7c2)
+
+
 
 **Identificadores**
 En Docker, se utilizan varios identificadores para diferenciar de manera única los elementos del sistema, como imágenes, contenedores, volúmenes y redes. Estos identificadores son generados automáticamente por Docker y son únicos dentro del contexto del sistema Docker en el que se encuentran. 
@@ -52,10 +56,13 @@ docker inspect <nombre imagen>:<tag>
 ```
 
 Inspeccionar la imagen hello-world 
-# COMPLETAR
+```
+docker inspect hello-world
+```
 
-**¿Con qué algoritmo se está generando el ID de la imagen**
-# COMPLETAR
+**¿Con qué algoritmo se está generando el ID de la imagen?**
+
+El ID de la imagen de Docker, se genera utilizando el algoritmo de hash SHA256.
 
 ### Filtrar imágenes
 
@@ -72,8 +79,9 @@ docker rmi <nombre imagen>:<tag>
 ```
 
 Eliminar la imagen hello-world 
-# COMPLETAR
-
+```
+docker rmi hello-world:latest
+```
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
 Cuando eliminas una imagen Docker, Docker no elimina automáticamente los contenedores que se han creado a partir de esa imagen. Esto significa que, aunque hayas eliminado la imagen, el contenedor seguirá ejecutándose normalmente.  
 **Considerar**
