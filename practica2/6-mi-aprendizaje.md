@@ -1,3 +1,4 @@
-# COMPLETAR  
-Comparando sus conocimientos antes de hacer la práctica con sus conocimientos después de hacer la tarea, explicar los principales aprendizajes logrados para beneficio de su formación profesional.  
-Si solucionó un problema presentado al realizar la práctica también se debe documentar.
+A través de esta práctica, he ganado un entendimiento más detallada del ecosistema Docker, especialmente en áreas como el mapeo de puertos, la gestión de contenedores y la configuración de variables de entorno. Aprendí a utilizar comandos avanzados para mapear puertos y ejecutar comandos dentro de contenedores en ejecución, lo que ha mejorado significativamente mi capacidad para administrar y resolver problemas. También adquirí experiencia en la persistencia de datos en contenedores de bases de datos y en la creación y gestión de redes Docker.
+
+Además, desplegar una aplicación completa como WordPress con una base de datos MySQL me enseñó la importancia de configurar adecuadamente las variables de entorno y la interconexión de servicios dentro de una red Docker. Esta experiencia con Docker ha sido genial para mí, y ahora me siento mucho más seguro en el manejo de contenedores y la configuración de entornos. 
+
