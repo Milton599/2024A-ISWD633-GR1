@@ -48,12 +48,16 @@ docker network ls
 
 ![Imagen](imagenes/esquema-ejercicio-redes.PNG)
 
-# COLOCAR UNA CAPTURA DE LAS REDES EXISTENTES CREADAS
+![image](https://github.com/Milton599/2024A-ISWD633-GR1/assets/94476149/c34b3342-7b8f-4e0e-9957-e7e9b3bec906)
 
-# COLOCAR UNA(S) CAPTURAS(S) DE LOS CONTENEDORES CREADOS EN DONDE SE EVIDENCIE A QUÉ RED ESTÁN VINCULADOS
+
+![image](https://github.com/Milton599/2024A-ISWD633-GR1/assets/94476149/bf2d8098-0713-4ea8-9b4d-4d8228e1b4ed)
+
+![image](https://github.com/Milton599/2024A-ISWD633-GR1/assets/94476149/d94faeb8-2180-4673-9e5a-86435feb5e5e)
 
 ### Para eliminar las redes creadas
 ```
 docker network rm <nombre de la red>
 ```
+![image](https://github.com/Milton599/2024A-ISWD633-GR1/assets/94476149/13388511-c005-4e70-959b-f810fd333882)
 
